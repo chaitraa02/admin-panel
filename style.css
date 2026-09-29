@@ -1,0 +1,160 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial','Lucida Sans';
+    background: #f4f6fa;
+}
+
+.login {
+    width: 400px;
+    background: white;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 12px;
+}
+
+.login h1 {
+    text-align: center;
+    color: #021d55;
+    margin-bottom: 10px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.login input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background: #021d55;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.login button:hover {
+    background: #668bd3;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 230px;
+    min-height: 100vh;
+    background: #021d55;
+    color: white;
+    padding: 25px 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.sidebar p {
+    padding: 14px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.sidebar p:hover {
+    background: #5479c4;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+.content h1 {
+    color: #021d55;
+    margin-bottom: 8px;
+}
+
+.content > p {
+    color: #777;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #021d55;
+    font-size: 28px;
+}
+
+.tabels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tabels > div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#employees,
+#attendance,
+#tasks,
+#leave {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+#employees h2,
+#attendance h2,
+#tasks h2,
+#leave h2 {
+    color: #021d55;
+    margin-bottom: 20px;
+}
+
+
+#employees p,
+#attendance p,
+#tasks p,
+#leave p {
+    padding: 13px;
+    border-bottom: 1px solid #eee;
+}

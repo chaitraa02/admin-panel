@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+        <div class="sidebar">
+
+            <h2>Admin Panel</h2>
+
+            <p onclick="showSection('dashboard')">Dashboard</p>
+            <p onclick="showSection('employees')">Employees</p>
+            <p onclick="showSection('attendance')">Attendance</p>
+            <p onclick="showSection('tasks')">Tasks</p>
+            <p onclick="showSection('leave')">Leave</p>
+
+        </div>
+        <div class="content">
+            <div id="dashboard">
+
+                <h1>Dashboard</h1>
+                <p>Welcome, Admin 👋</p>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <h3>Total Employees</h3>
+                        <h2>250</h2>
+                    </div>
+
+                    <div class="card">
+                        <h3>Active Employees</h3>
+                        <h2>215</h2>
+                    </div>
+
+                    <div class="card">
+                        <h3>Total Tasks</h3>
+                        <h2>58</h2>
+                    </div>
+
+                    <div class="card">
+                        <h3>Leave Requests</h3>
+                        <h2>15</h2>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tabels">
+            <div id="employees">
+
+                <h2>Employees</h2>
+
+                <p>Rahul Kumar</p>
+                <p>Ananya Rao</p>
+                <p>Priya Sharma</p>
+                <p>Pradeep Kumar</p>
+                <p>Aishwarya</p>
+                <p>Arun</p>
+                <p>Chethan</p>
+                <p>Sahana</p>
+                <p>Dev</p>
+                <p>Namratha</p>
+                <p>Manoj</p>
+                <p>Alia</p>
+
+            </div>
+            <div id="attendance">
+
+                <h2>Attendance</h2>
+
+                <p>Rahul Kumar - IT - Active</p>
+                <p>Ananya Rao - IT - Active</p>
+                <p>Priya Sharma - Finance - Active</p>
+                <p>Pradeep Kumar - HR - Leave</p>
+                <p>Aishwarya - IT - Leave</p>
+                <p>Arun - Finance - Active</p>
+                <p>Chethan - HR - Active</p>
+                <p>Sahana - IT - Leave</p>
+                <p>Dev - IT - Active</p>
+                <p>Namratha - IT - Active</p>
+                <p>Manoj - IT - Active</p>
+                <p>Alia - Finance - Leave</p>
+
+            </div>
+            <div id="tasks">
+
+                <h2>Tasks</h2>
+
+                <p>Website Development - Rahul - In Progress</p>
+                <p>Employee Database - Ananya - Completed</p>
+                <p>Monthly Report - Priya - Pending</p>
+                <p>Testing - Pradeep - In Progress</p>
+
+            </div>
+            <div id="leave">
+
+                <h2>Leave Requests</h2>
+
+                <p>Rahul Kumar - Casual Leave - Approved</p>
+                <p>Priya Sharma - Sick Leave - Pending</p>
+                <p>Aishwarya - Casual Leave - Approved</p>
+                <p>Alia - Personal Leave - Pending</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="dashboard.js"></script>
+
+</body>
+</html>
